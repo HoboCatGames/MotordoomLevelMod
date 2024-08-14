@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4016692998
+CRC: 2919970062
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 28a20d5d106a359e9fc2b8ed88fa8180
+    Hash: 53695d79c1cc2ec04837059debfe241b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a77f5ddfc946dac54848eea3b592eeb9
+    Hash: 4e10e8f2c60fdc60aadccbe48167f6d2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -47,13 +47,23 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 3da14d942792c0d43b58452e8a5cb6ea, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e13df81f9061a4f1ba8c61bc1be1d422, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3a6c7e81d813481429a6d68d30fbbc9d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3bd0b1752fa663e41a9c0f08255d0224, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 - Class: 192
   Script: {instanceID: 0}
-SerializeReferenceClassIdentifiers: []
+- Class: 238
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: EnemyPoolData
 Assets:
 - Assets/Prefabs/Level/ModLevel.prefab
 Dependencies: []
