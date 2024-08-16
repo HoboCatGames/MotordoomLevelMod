@@ -62,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curve: {fileID: 4281682326047150219}
   railNodes: 10
-  deactivateObjectWhenGrinding: 1
+  deactivateColliderWhenGrinding: 1
   colliderToDeactivate: {fileID: 2323089388602240510}
 --- !u!114 &4281682326047150219
 MonoBehaviour:

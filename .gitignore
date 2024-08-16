@@ -71,3 +71,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /Assets/AssetBundles
+/Assets/AssetBundles
+/Assets/DontUploadToGitHub
+Assets/DontUploadToGitHub.meta
+/Assets/AssetBundles
+Assets/AssetBundles/AssetBundles.manifest

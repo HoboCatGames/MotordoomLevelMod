@@ -6,7 +6,7 @@ public class ModRail : MonoBehaviour
 {
     public Curve curve;
     public int railNodes = 10;
-    public bool deactivateObjectWhenGrinding = false;
+    public bool deactivateColliderWhenGrinding = false;
     public Collider colliderToDeactivate;
     public void Awake()
     {

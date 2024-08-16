@@ -21,8 +21,26 @@ MonoBehaviour:
     timeTillStartSpawning: 0
     canStopSpawning: 0
     timeWhenEndSpawning: 0
-    startingAmountEnemiesToSpawn: 200
-    maxEnemiesToSpawn: 500
+    startingAmountEnemiesToSpawn: 100
+    maxEnemiesToSpawn: 200
+    spawnAtGlobalLevel: 1
+    currentLevel: 0
+  - enemyType: 0
+    enemyPrefab: {fileID: 0}
+    timeTillStartSpawning: 0
+    canStopSpawning: 0
+    timeWhenEndSpawning: 0
+    startingAmountEnemiesToSpawn: 100
+    maxEnemiesToSpawn: 200
+    spawnAtGlobalLevel: 1
+    currentLevel: 0
+  - enemyType: 0
+    enemyPrefab: {fileID: 0}
+    timeTillStartSpawning: 0
+    canStopSpawning: 0
+    timeWhenEndSpawning: 0
+    startingAmountEnemiesToSpawn: 100
+    maxEnemiesToSpawn: 200
     spawnAtGlobalLevel: 1
     currentLevel: 0
   bosses: []
