@@ -7,7 +7,6 @@ public class EnemyPoolData
 {
     [Header("Enemy To Spawn")]
     public EnemyType enemyType;
-    public GameObject enemyPrefab;
 
     [Header("Start Spawning")]
     public float timeTillStartSpawning = 0;

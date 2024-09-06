@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class ModEnemySpawner : MonoBehaviour
 {
-    public EnemySpawnerSettings enemySpawnerSettings;
+    public EnemySpawnerSettings enemySpawnSettings_Career;
+    public EnemySpawnerSettings enemySpawnSettings_Easy;
+    public EnemySpawnerSettings enemySpawnSettings_Medium;
+    public EnemySpawnerSettings enemySpawnSettings_Hard;
 }

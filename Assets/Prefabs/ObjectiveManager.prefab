@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8921185673349025822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8921185673349025799}
+  - component: {fileID: 8921185673349025792}
+  - component: {fileID: 8921185673349025793}
+  - component: {fileID: 8921185673349025794}
+  - component: {fileID: 8921185673349025795}
+  - component: {fileID: 8921185673349025820}
+  - component: {fileID: 8921185673349025821}
+  - component: {fileID: 8921185673349025798}
+  - component: {fileID: 8921185673349025796}
+  - component: {fileID: 8921185673349025797}
+  - component: {fileID: 8921185673349025803}
+  - component: {fileID: 8921185673349025802}
+  m_Layer: 0
+  m_Name: ObjectiveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8921185673349025799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.10608, y: 62.193626, z: -98.01715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8921185673349025792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c25c095221c2342b16dd3907436f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectives:
+  - {fileID: 8921185673349025793}
+  - {fileID: 8921185673349025794}
+  - {fileID: 8921185673349025795}
+  - {fileID: 8921185673349025820}
+  - {fileID: 8921185673349025821}
+  - {fileID: 8921185673349025798}
+  - {fileID: 8921185673349025796}
+  - {fileID: 8921185673349025803}
+  - {fileID: 8921185673349025797}
+  - {fileID: 8921185673349025802}
+--- !u!114 &8921185673349025793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30777563af027de4b9125fe305636814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: High Score
+  requiredScore: 100000
+--- !u!114 &8921185673349025794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30777563af027de4b9125fe305636814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Pro Score
+  requiredScore: 500000
+--- !u!114 &8921185673349025795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30777563af027de4b9125fe305636814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Legend Score
+  requiredScore: 1000000
+--- !u!114 &8921185673349025820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ca6ab128300074cabe3d6ad0593215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Combo Score
+  requiredComboScore: 50000
+--- !u!114 &8921185673349025821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7393841e97514a34cb97a81264fef899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Combo
+  requiredCombo: 25
+--- !u!114 &8921185673349025798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258d380c03f0a0149acda8d870397f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: "Collect M.\xD6.T.O.R."
+  collectables: []
+--- !u!114 &8921185673349025796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b69589b5dece6247912259d209f9ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Collect C.O.M.B.O. while in a combo
+  collectables: []
+--- !u!114 &8921185673349025797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258d380c03f0a0149acda8d870397f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Find the demonic contract
+  collectables: []
+--- !u!114 &8921185673349025803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43b73d9c7e8d8643bd5651c2a85206a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Jump from Ramp to Ramp
+  requiredGap: {fileID: 0}
+  specificTrickRequired: 0
+  requiredTrickType: 0
+--- !u!114 &8921185673349025802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921185673349025822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760641c4e0222ca4d814d5e5b49d50a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showcaseCamera: {fileID: 0}
+  objectiveDescriptionText: Defeat the Boss

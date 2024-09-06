@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd0b1752fa663e41a9c0f08255d0224, type: 3}
+  m_Name: SpawnerSettings_Career
+  m_EditorClassIdentifier: 
+  spawnEnemies: 1
+  healthIncreasePercentage: 0.6
+  damageIncreasePercentage: 0.8
+  enemyPools:
+  - enemyType: 0
+    timeTillStartSpawning: 0
+    canStopSpawning: 0
+    timeWhenEndSpawning: 0
+    startingAmountEnemiesToSpawn: 50
+    maxEnemiesToSpawn: 300
+    spawnAtGlobalLevel: 1
+    currentLevel: 0
+  - enemyType: 8
+    timeTillStartSpawning: 2
+    canStopSpawning: 0
+    timeWhenEndSpawning: 0
+    startingAmountEnemiesToSpawn: 5
+    maxEnemiesToSpawn: 20
+    spawnAtGlobalLevel: 1
+    currentLevel: 0
+  bosses: []
+  spawnRandomBoss: 0
+  spawnThisBoss: 0
+  minArea: {x: -125, y: -175}
+  maxArea: {x: 150, y: 125}
+  height: 100
+  startingTimeTillNextSpawn: 0.1
+  spawnTimeFactorPerLevel: 10

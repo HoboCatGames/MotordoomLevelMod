@@ -7,8 +7,8 @@ public class EnemySpawnerSettings : ScriptableObject
 {
     public bool spawnEnemies = true;
     [Header("Enemy Settings")]
-    public float healthIncreasePercentage = 4;
-    public float damageIncreasePercentage = 5;
+    public float healthIncreasePercentage;
+    public float damageIncreasePercentage;
 
     [Header("Enemies")]
     public EnemyPoolData[] enemyPools;
