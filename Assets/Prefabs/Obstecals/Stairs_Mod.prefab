@@ -120,6 +120,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5933708694769781380}
     m_Modifications:
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000033634183
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000071652056
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9727539
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2318402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 26.811
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204784988212842322, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971501984917354956, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: points.Array.data[5].x
+      value: -0.0000018282881
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971501984917354956, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: points.Array.data[5].y
+      value: 5.41296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971501984917354956, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: points.Array.data[5].z
+      value: 18.798
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971501984917354956, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: points.Array.data[6].x
+      value: -0.000004690206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971501984917354956, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: points.Array.data[6].y
+      value: 5.9521084
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971501984917354956, guid: 115a04823f1801a4581e1e9915045607, type: 3}
+      propertyPath: points.Array.data[6].z
+      value: 19.804382
+      objectReference: {fileID: 0}
     - target: {fileID: 7358228556791965642, guid: 115a04823f1801a4581e1e9915045607, type: 3}
       propertyPath: m_Name
       value: StairRail_Mod

@@ -11,8 +11,8 @@ public class BezierCurveEditor : Editor
 
     private const int lineSteps = 10;
 
-    private const float handleSize = 0.04f;
-    private const float pickSize = 0.06f;
+    private const float handleSize = 0.4f;
+    private const float pickSize = 0.6f;
 
     private int selectedIndex = -1;
 
@@ -89,7 +89,7 @@ public class BezierCurveEditor : Editor
 	private Vector3 ShowPoint(int index)
     {
         Vector3 point = handleTransform.TransformPoint(curve.points[index]);
-        Handles.color = Color.white;
+        Handles.color = Color.red;
         if (Handles.Button(point, handleRotation, handleSize, pickSize, Handles.CubeHandleCap))
         {
             selectedIndex = index;
