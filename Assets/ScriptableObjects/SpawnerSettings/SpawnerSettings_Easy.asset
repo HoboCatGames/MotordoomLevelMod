@@ -33,7 +33,7 @@ MonoBehaviour:
     spawnAtGlobalLevel: 1
     currentLevel: 0
   bosses: []
-  spawnRandomBoss: 0
+  spawnRandomBoss: 1
   spawnThisBoss: 0
   minArea: {x: -125, y: -175}
   maxArea: {x: 150, y: 125}

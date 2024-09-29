@@ -8,4 +8,6 @@ public class ModEnemySpawner : MonoBehaviour
     public EnemySpawnerSettings enemySpawnSettings_Easy;
     public EnemySpawnerSettings enemySpawnSettings_Medium;
     public EnemySpawnerSettings enemySpawnSettings_Hard;
+
+    public Transform[] bossSpawnLocations;
 }

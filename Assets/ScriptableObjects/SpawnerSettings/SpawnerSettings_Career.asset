@@ -32,9 +32,17 @@ MonoBehaviour:
     maxEnemiesToSpawn: 20
     spawnAtGlobalLevel: 1
     currentLevel: 0
+  - enemyType: 9
+    timeTillStartSpawning: 1
+    canStopSpawning: 0
+    timeWhenEndSpawning: 0
+    startingAmountEnemiesToSpawn: 5
+    maxEnemiesToSpawn: 100
+    spawnAtGlobalLevel: 1
+    currentLevel: 0
   bosses: []
   spawnRandomBoss: 0
-  spawnThisBoss: 0
+  spawnThisBoss: 3
   minArea: {x: -125, y: -175}
   maxArea: {x: 150, y: 125}
   height: 100
