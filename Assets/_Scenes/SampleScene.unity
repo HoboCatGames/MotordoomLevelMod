@@ -178,5 +178,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModLevel_DONT_CHANGE_THIS
       objectReference: {fileID: 0}
+    - target: {fileID: 6094731054429714974, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
+      propertyPath: fog
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094731054429714974, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
+      propertyPath: fogMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094731054429714974, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
+      propertyPath: fogColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094731054429714974, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
+      propertyPath: fogColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094731054429714974, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
+      propertyPath: fogColor.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094731054429714974, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
+      propertyPath: fogDensity
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ad33e462b242df458c69b1f65f3fc90, type: 3}
