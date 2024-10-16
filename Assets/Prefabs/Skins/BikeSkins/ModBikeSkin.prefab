@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 0
-  unlocked: 1
   forCharacterId: -1
   excludeId: 
   title: Bike Skin Title
